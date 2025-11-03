@@ -1,0 +1,21 @@
+.bg-black{
+    background-color: #000324;
+}
+
+.flex-bot{
+    display: flex;
+    align-items: flex-end;
+}
+.white{
+    color: #ffffff;
+}
+
+.header{
+    background: url(/images/header.jpg);
+}
+
+.centerbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
