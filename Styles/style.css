@@ -11,11 +11,26 @@
 }
 
 .header{
-    background: url(/images/header.jpg);
+    background: url(/images/header.jpg) no-repeat  center;
+    height: 350px;
 }
 
 .centerbox{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bg-text{
+    background-color: #000324cc;
+}
+
+.bg-1{
+    background: url(/images/bg.jpg) no-repeat center;
+    height: 738px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
 }
