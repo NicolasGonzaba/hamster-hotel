@@ -1,3 +1,42 @@
+
+.dosis {
+  font-family: "Dosis", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 ;
+  font-style: normal;
+}
+
+h1,h2,h3,h4{
+    font-family: dosis;
+    font-weight: 350;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.p2{
+    font-size: 20px;
+}
+
 .bg-black{
     background-color: #000324;
 }
@@ -10,9 +49,14 @@
     color: #ffffff;
 }
 
+.blue{
+    color: #1F51A8;
+}
+
 .header{
     background: url(/images/header.jpg) no-repeat center;
-    height: 350px;
+    height: 500px;
+    background-size: cover;
 }
 
 .centerbox{
@@ -21,18 +65,42 @@
     justify-content: center;
 }
 
+.centerbox2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.spacebox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.centercards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .bg-text{
     background-color: #000324cc;
+    max-width: 945px;
+    height: 232px;
 }
 
 .bg-1{
     background: url(/images/bg.jpg) no-repeat center;
     height: 548px;
+    background-size: cover;
 }
 
 .bg-2{
     background: url(/images/bg2.jpg) no-repeat center;
     height: 738px;
+    background-size: cover;
 }
 
 .flex{
@@ -41,3 +109,6 @@
     
 }
 
+.cover{
+    object-fit: cover;
+}
