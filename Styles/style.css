@@ -11,7 +11,7 @@
 }
 
 .header{
-    background: url(/images/header.jpg) no-repeat  center;
+    background: url(/images/header.jpg) no-repeat center;
     height: 350px;
 }
 
@@ -27,10 +27,17 @@
 
 .bg-1{
     background: url(/images/bg.jpg) no-repeat center;
+    height: 548px;
+}
+
+.bg-2{
+    background: url(/images/bg2.jpg) no-repeat center;
     height: 738px;
 }
 
 .flex{
     display: flex;
-    align-items: center;
+    justify-content:space-between;
+    
 }
+
