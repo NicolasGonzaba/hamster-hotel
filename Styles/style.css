@@ -112,3 +112,13 @@ p{
 .cover{
     object-fit: cover;
 }
+
+
+input{
+    width: 210px;
+    height: 45px
+}
+
+b{
+    font-size: 20px;
+}
