@@ -15,32 +15,65 @@
 
 <body>
     <div class=" bg-black ">
-        <ul class="nav justify-content-center flex-bot ">
+        <ul class="nav justify-content-center flex-bot d-none d-md-flex">
             <li class="nav-item ">
-                <h4 class="nav-link active white" href="#">Overview</h4>
+                <a class="nav-link active white" href="#">Overview</a>
             </li>
             <li class="nav-item">
-                <h4 class="nav-link white" href="#">Rooms</h4>
+                <a class="nav-link white" href="#">Rooms</a>
             </li>
             <li class="nav-item">
-                <h4 class="nav-link white" href="#">Packages</h4>
+                <a class="nav-link white" href="#">Packages</a>
             </li>
             <img src="images/Logo.png" alt="hotel logo">
 
             <li class="nav-item">
-                <h4 class="nav-link white" href="#">Amenities</h4>
+                <a class="nav-link white" href="#">Amenities</a>
             </li>
             <li class="nav-item">
-                <h4 class="nav-link white" href="#">Contact</h4>
+                <a class="nav-link white" href="#">Contact</a>
             </li>
             <li class="nav-item white">
-                <h4 class="nav-link border border-white white">Reserve</h4>
+                <a class="nav-link  white" href="#">Reserve</a>
             </li>
 
         </ul>
+       <nav class="navbar bg-dark border-bottom border-body d-flex d-md-none" data-bs-theme="dark">
+            <div class="container-fluid">
+                <img src="images/Logo.png" alt="hotel logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Rooms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Amenities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Reserve</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
+
+
     <div class="header centerbox">
-        <div class="container bg-text centerbox2">
+        <div class="container bg-text centerbox2 txt-c">
             <div class="row white">
                 <div class="col centerbox">
                     <h1>Run on the wheel of luxury</h1>
@@ -54,10 +87,11 @@
         </div>
     </div>
 
+
     <div class="container ">
         <div class="row m-5">
-            <div class="col-4">
-                <img src="./images/hamsterhomejpg.jpg" width="369px" height="416px" class="d-none d-lg-block" alt="hamster chair">
+            <div class="col-4 d-none d-lg-block">
+                <img src="./images/hamsterhomejpg.jpg" width="100%" height="416px" alt="hamster chair">
             </div>
             <div class="col">
                 <h2>Welcome to a hamster's paradise</h2>
@@ -67,27 +101,35 @@
                 <p>Inspired by the warm beauty of the California Coast, we invite you to
                     enjoy the rich accommodations along with our unmatched luxury. Discover the satisfaction of
                     indulging in our quality rooms, and thank you for choosing La Petite Maison.</p>
-                <div class="spacebox">
-                    <img src="/images/awardfinest.png" alt="award 1">
-                    <img src="/images/awardsatisfaction.png" alt="award 2">
-                    <img src="/images/awardgenuine.png" alt="award 2">
+                <div class="spacebox d-none d-lg-block">
+                    <img src="/images/awardfinest.png" width="25%" alt="award 1">
+                    <img src="/images/awardsatisfaction.png" width="25%" alt="award 2">
+                    <img src="/images/awardgenuine.png" width="25%" alt="award 3">
                 </div>
 
             </div>
         </div>
+        <div class="row-flex mb-4 d-block d-lg-none">
+            <div class="col spacebox">
+                <img src="/images/awardfinest.png" width="25%" alt="award 1">
+                <img src="/images/awardsatisfaction.png" width="25%" alt="award 2">
+                <img src="/images/awardgenuine.png" width="25%" alt="award 3">
+            </div>
+
+        </div>
     </div>
 
     <div class="bg-2">
-        <div class="container">
+        <div class="container d-none d-lg-block">
             <div class="row white">
                 <div class="col centerbox">
                     <h2 class="m-4">Our Rooms</h2>
                 </div>
             </div>
             <div class="row centerbox">
-                <div class="col">
-                    <div class="card rounded-0" style="width: 380px; height: 522px;">
-                        <img class="cover" src="./images/room1.jpg" class="card-img-top" height="190px" alt="...">
+                <div class="col-4">
+                    <div class="card rounded-0" style="width: 100%; height: 100%;">
+                        <img class="cover" src="./images/room1.jpg" class="card-img-top" height="190px" alt="room1">
                         <div class="card-body">
                             <h3 class="card-title">Queen Room</h3>
                             <p class="card-text">850 SQ FT room with city view</p>
@@ -99,13 +141,13 @@
                             </p>
                             <br>
                             <br>
-                            <a href="#" class="btn btn-primary">Reserve</a>
+                            <a href="#" class="btn btn-primary rounded-0">Reserve</a>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card rounded-0" style="width: 380px; height: 522px;">
-                        <img src="/images/room3.jpg" class="card-img-top" height="190px" alt="...">
+                <div class="col-4">
+                    <div class="card rounded-0" style="width: 100%; height: 100%;">
+                        <img src="/images/room3.jpg" class="card-img-top" height="190px" alt="room 2">
                         <div class="card-body">
                             <h3 class="card-title">King Room</h3>
                             <p class="card-text">950 SQ FT room with beach view</p>
@@ -117,14 +159,14 @@
                             </p>
                             <br>
                             <br>
-                            <a href="#" class="btn btn-primary">Reserve</a>
+                            <a href="#" class="btn btn-primary rounded-0">Reserve</a>
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col-4">
 
-                    <div class="card rounded-0" style="width: 380px; height: 522px;">
-                        <img src="/images/room2.jpg" class="card-img-top" height="190px" alt="...">
+                    <div class="card rounded-0" style="width: 100%; height: 100%;">
+                        <img src="/images/room2.jpg" class="card-img-top" height="190px" alt="room 3">
                         <div class="card-body">
                             <h3 class="card-title">Beach Side Suite</h3>
                             <p class="card-text">1500 SQ FT Suite with beach view</p>
@@ -136,7 +178,69 @@
                                 <br>
                                 <br>• Full kitchen with a refrigerator, stove, and island
                             </P>
-                            <a href="#" class="btn btn-primary">Reserve</a>
+                            <a href="#" class="btn btn-primary rounded-0">Reserve</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container txt-c d-block d-lg-none">
+            <div class="row white">
+                <div class="col centerbox">
+                    <h2 class="m-4">Our Rooms</h2>
+                </div>
+            </div>
+            <div class="row m-3">
+                <div class="col centerbox">
+                    <div class="card rounded-0" style="width: 70%; height: 100%;">
+                        <div class="card-body">
+                            <h3 class="card-title">Queen Room</h3>
+                            <p class="card-text">850 SQ FT room with city view</p>
+                            <p>• One queen size bed
+                                <br>
+                                <br>• Seed Bar, fireplace and large balcony
+                                <br>
+                                <br>• Small kitchen with a refrigerator and stove
+                            </p>
+                            <a href="#" class="btn btn-primary rounded-0">Reserve</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row m-3">
+                <div class="col centerbox">
+                    <div class="card rounded-0" style="width: 70%; height: 100%;">
+                        <div class="card-body">
+                            <h3 class="card-title">King Room</h3>
+                            <p class="card-text">950 SQ FT room with beach view</p>
+                            <p>• One king size bed
+                                <br>
+                                <br>• Seed Bar, fireplace and large balcony
+                                <br>
+                                <br>• Small kitchen with a refrigerator and stove
+                            </p>
+                            <a href="#" class="btn btn-primary rounded-0">Reserve</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row m-3">
+                <div class="col centerbox">
+                    <div class="card rounded-0" style="width: 70%; height: 100%;">
+
+                        <div class="card-body">
+                            <h3 class="card-title">Beach Side Suite</h3>
+                            <p class="card-text">1500 SQ FT Suite with beach view</p>
+                            <P>• One California king size bed
+                                <br>
+                                <br>• Second room with fireplace, hot tub, and balcony
+                                <br>
+                                <br>• Seed Bar and coffee station
+                                <br>
+                                <br>• Full kitchen with a refrigerator, stove, and island
+                            </P>
+                            <a href="#" class="btn btn-primary rounded-0">Reserve</a>
                         </div>
                     </div>
                 </div>
@@ -144,15 +248,18 @@
         </div>
     </div>
 
-    <div class="container p-5">
-        <div class="row">
+    <div class="container p-5 mt-5 mb-5">
+        <div class="row ">
             <div class="col centerbox">
                 <h2>Packages</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col pe-0">
-                <img class="cover" src="/images/hamsterwedding.jpg"  width="100%" height="234px" alt="">
+        <div class="row temp-space">
+            <div class="col pe-0 d-none d-lg-block">
+                <img class="cover" src="/images/hamsterwedding.jpg" width="100%" height="234px" alt="wedding">
+            </div>
+            <div class="col pe-0 d-none d-md-block d-lg-none">
+                <img class="cover" src="/images/hamsterwedding.jpg" width="100%" height="100%" alt="wedding">
             </div>
             <div class="col">
                 <h3>Beach Wedding package</h3>
@@ -166,8 +273,8 @@
 
             </div>
         </div>
-        <div class="row">
-            <div class="col pe-0">
+        <div class="row temp-space">
+            <div class="col pe-0 ">
                 <h3>Full Bloom Package</h3>
                 <br>
                 <p class="blue">Starting US $1,000.00</p>
@@ -176,13 +283,19 @@
                     to our orchards for cherry, strawberry, and apple picking that is open all day. We end each evening
                     with fresh, vegetable centric dinners along with a live show from local musicians.</p>
             </div>
-            <div class="col">
-                <img src="/images/hamsterspring.jpg" width="100%" height="234px" class="cover" alt="">
+            <div class="col d-none d-lg-block">
+                <img src="/images/hamsterspring.jpg" width="100%" height="234px "class="cover" alt="spring">
+            </div>
+            <div class="col d-none d-md-block d-lg-none">
+                <img src="/images/hamsterspring.jpg" width="100%" height="100%" class="cover" alt="spring">
             </div>
         </div>
-        <div class="row">
-            <div class="col pe-0">
-                <img src="images/hamstercheese.jpg" width="100%" height="234px" class="cover" alt="">
+        <div class="row temp-space">
+            <div class="col pe-0 d-none d-lg-block">
+                <img src="images/hamstercheese.jpg" width="100%" height="234px" class="cover" alt="cheese">
+            </div>
+            <div class="col pe-0 d-none d-md-block d-lg-none">
+                <img src="images/hamstercheese.jpg" width="100%" height="100%" class="cover" alt="cheese">
             </div>
             <div class="col">
                 <h3>Cheese and Seed Tour Package</h3>
@@ -207,14 +320,25 @@
 
             <div class="row white">
                 <div class="col centerbox">
-                    <p class="p2">Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most
+                    <p class="p2">Here at La Petite Maison, we invite you to enjoy our services in hopes that you have
+                        the most
                         relaxing stay we can provide.</p>
                 </div>
             </div>
             <br>
+            <div class="row white d-block d-md-none">
+                <div class="col">
+                    <h3>
+                        • 24 Hour Room Service 
+                        <br><br>• Complimentary Breakfast 
+                        <br><br>• Valet Parking 
+                        <br><br>• Beachside Pool
+                    </h2>
+                </div>
+            </div>
             <br>
             <br>
-            <div class="row white centerbox">
+            <div class="row white centerbox txt-c d-none d-md-flex">
                 <div class="col centerbox2">
                     <img src="images/24hour.png" width="150px" height="101px" alt="24 hour">
                     <br>
@@ -223,12 +347,12 @@
                 <div class="col centerbox2">
                     <img src="/images/breakfast.png" width="150px" height="104px" alt="food">
                     <br>
-                
+
                     <p><b>Complimentary Breakfast</b></p>
                 </div>
                 <div class="col centerbox2">
                     <img src="/images/valet.png" width="100px" height="115px" alt="man">
-                    <br>                    
+                    <br>
                     <p><b>Valet Parking</b></p>
                 </div>
                 <div class="col centerbox2">
@@ -248,41 +372,93 @@
                 <h2>Reserve a room</h2>
             </div>
         </div>
-        <div class="row centerbox">
-            <div class="col-2 ">
-                <p>Check-in</p>
+        <div class="d-none d-lg-block">
+            <div class="row centerbox ">
+                <div class="col-2 bot">
+                    <p>Check-in</p>
+                </div>
+                <div class="col-2 bot">
+                    <p>Check-out</p>
+                </div>
+                <div class="col-2 bot">
+                    <p>Number of Guests</p>
+                </div>
+                <div class="col-2 bot">
+                    <p>Room Type</p>
+                </div>
+                <div class="col-2"> </div>
             </div>
-            <div class="col-2 ">
-                <p>Check-out</p>
+            <div class="row centerbox mb-5">
+                <div class="col-2 ">
+                    <input class="rounded-0">
+                </div>
+                <div class="col-2 ">
+                    <input class="rounded-0">
+                </div>
+                <div class="col-2 ">
+                    <input class="rounded-0">
+                </div>
+                <div class="col-2 ">
+                    <input class="rounded-0">
+                </div>
+                <div class="col-2">
+                    <button type="button" class="btn btn-primary rounded-0"> <b>Check Availability</b></button>
+                </div>
+
             </div>
-            <div class="col-2 ">
-                <p>Number of Guests</p>
+            <div class="row ">
+                <img src="/images/hamsterreserve.jpg" width="1137px" height="480px" class="cover" alt="hamster reserve">
             </div>
-            <div class="col-2 ">
-                <p >Room Type</p>
-            </div>
-            <div class="col-2"> </div>
         </div>
-        <div class="row centerbox mb-5">
-            <div class="col-2 ">
-                <input class="rounded-0">
+        <div class="d-block d-lg-none">
+            <div class="row">
+                <div class="col centerbox bot2">
+                    <p>Check-in</p>
+                </div>
             </div>
-            <div class="col-2 ">
-                <input class="rounded-0">
+            <div class="row">
+                <div class="col centerbox ">
+                    <input class="rounded-0">
+                </div>
             </div>
-            <div class="col-2 ">
-                <input class="rounded-0">
+            <div class="row">
+                <div class="col centerbox bot">
+                    <p>Check-out</p>
+                </div>
             </div>
-            <div class="col-2 ">
-                <input class="rounded-0">
+            <div class="row">
+                <div class="col centerbox ">
+                    <input class="rounded-0">
+                </div>
             </div>
-            <div class="col-2">
-                <button type="button" class="btn btn-primary rounded-0" > <b>Check Availability</b></button>
+            <div class="row">
+                <div class="col centerbox bot">
+                    <p>Number of Guests</p>
+                </div>
             </div>
-            
-        </div>
-        <div class="row ">
-            <img src="/images/hamsterreserve.jpg" width="1137px" height="480px" class="cover" alt="hamster reserve">
+            <div class="row">
+                <div class="col centerbox ">
+                    <input class="rounded-0">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col centerbox bot">
+                    <p>Room Type</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col centerbox">
+                    <input class="rounded-0">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col centerbox">
+                    <button type="button" class="btn btn-primary btn-lg rounded-0 mt-4 mb-4"> <b>Check
+                            Availability</b></button>
+                </div>
+            </div>
+
         </div>
     </div>
     <br>

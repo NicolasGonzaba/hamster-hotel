@@ -1,124 +1,183 @@
-
 .dosis {
-  font-family: "Dosis", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100 ;
-  font-style: normal;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
 }
 
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
     font-family: dosis;
     font-weight: 350;
 }
 
-h1{
+h1 {
     font-size: 45px;
 }
 
-h2{
+h2 {
     font-size: 35px;
 }
 
-h3{
+h3 {
     font-size: 25px;
 }
 
-h4{
+h4 {
     font-size: 20px;
 }
 
-p{
+p {
     font-family: sans-serif;
     font-size: 15px;
     font-weight: 300;
 }
 
-.p2{
+.p2 {
     font-size: 20px;
+    text-align: center;
 }
 
-.bg-black{
+.bg-black {
     background-color: #000324;
 }
 
-.flex-bot{
+.flex-bot {
     display: flex;
     align-items: flex-end;
 }
-.white{
+
+.white {
     color: #ffffff;
 }
 
-.blue{
+.blue {
     color: #1F51A8;
 }
 
-.header{
+.header {
     background: url(/images/header.jpg) no-repeat center;
     height: 500px;
     background-size: cover;
 }
 
-.centerbox{
+.centerbox {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.centerbox2{
+.centerbox2 {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.spacebox{
+.spacebox {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
-.centercards{
+.centercards {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bg-text{
+.bg-text {
     background-color: #000324cc;
     max-width: 945px;
     height: 232px;
 }
 
-.bg-1{
+.bg-1 {
     background: url(/images/bg.jpg) no-repeat center;
     height: 548px;
     background-size: cover;
 }
 
-.bg-2{
+.bg-2 {
     background: url(/images/bg2.jpg) no-repeat center;
     height: 738px;
     background-size: cover;
 }
 
-.flex{
+.flex {
     display: flex;
-    justify-content:space-between;
-    
+    justify-content: space-between;
+
 }
 
-.cover{
+.cover {
     object-fit: cover;
 }
 
 
-input{
+b {
+    font-size: 20px;
+}
+
+a:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+input {
     width: 210px;
     height: 45px
 }
 
-b{
-    font-size: 20px;
+.txt-c {
+    text-align: center;
+}
+
+.bot {
+    margin-top: +20px;
+    margin-bottom: -20px !important;
+}
+
+.bot2 {
+    margin-bottom: -20px !important;
+}
+
+
+@media (max-width: 1010px) {
+    input {
+        width: 75%;
+        text-align: center;
+    }
+
+    .bg-2 {
+        height: 1050px;
+    }
+}
+
+@media(max-width: 450px) {
+    .bg-2 {
+        height: 1100px;
+    }
+
+    .card {
+        width: 120% !important;
+    }
+
+    h3, .blue{
+        text-align: center;
+    }
+
+    .temp-space{
+        margin-top: 15px !important;
+    }
+}
+
+@media(max-width: 380px){
+        .bg-2 {
+        height: 1250px;
+    }
 }
