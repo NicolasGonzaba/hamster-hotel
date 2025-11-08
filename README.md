@@ -1,6 +1,6 @@
 Nicolas Gonzaba
 
-Date Revised: Nov 7 2025 
+Date Revised: Nov 8 2025 
 
 Challenge #2 - Hamster Hotel 
 

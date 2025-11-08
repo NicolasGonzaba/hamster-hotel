@@ -147,7 +147,28 @@ input {
 }
 
 
-@media (max-width: 1010px) {
+@media (max-width: 1400px) {
+    input {
+    
+        width: 100%;
+        text-align: center;
+    }
+
+    .bg-2 {
+        height: 750px;
+    }
+
+    .btn-2{
+        height: 45px !important;
+        font-size: small !important;
+    }
+    
+    .c-2{
+        min-height: 555px !important;
+    }
+}
+
+@media (max-width: 990px) {
     input {
         width: 75%;
         text-align: center;
@@ -156,9 +177,13 @@ input {
     .bg-2 {
         height: 1050px;
     }
+
+    .btn-2{
+        width: 75% !important;
+    }
 }
 
-@media(max-width: 450px) {
+@media(max-width: 760px) {
     .bg-2 {
         height: 1100px;
     }
@@ -176,7 +201,7 @@ input {
     }
 }
 
-@media(max-width: 380px){
+@media(max-width: 420px){
         .bg-2 {
         height: 1250px;
     }
